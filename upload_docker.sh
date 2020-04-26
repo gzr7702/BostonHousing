@@ -11,7 +11,7 @@ dockerpath="/app"
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 #cat ~/info.txt | docker login --username gzr7702 --password-stdin
-docker login --username gzr7702 --password Lippman.1
+docker login --username gzr7702 --password password
 docker tag app rgrazianogzr7702/boston_housing/app
 
 
